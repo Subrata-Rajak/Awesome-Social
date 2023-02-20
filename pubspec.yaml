@@ -1,0 +1,47 @@
+name: insta_clone
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: '>=2.18.6 <3.0.0'
+
+dependencies:
+  intl: ^0.17.0
+  awesome_bottom_bar: ^1.2.2
+  cloud_firestore: ^4.3.1
+  cupertino_icons: ^1.0.2
+  email_validator: ^2.1.17
+  firebase_auth: ^4.2.5
+  firebase_core: ^2.4.1
+  firebase_storage: ^11.0.10
+  flutter:
+    sdk: flutter
+  font_awesome_flutter: ^10.3.0
+  get: 4.6.5
+  get_storage: ^2.0.3
+  google_nav_bar: ^5.0.6
+  image_picker: ^0.8.6+1
+  uuid: ^3.0.7
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/user_default_profile_pic.jpg
+    - assets/images/google_logo.png
+    - assets/images/forgot_password_bg.png
+    - assets/images/app_logo.png
+
+  fonts:
+    - family: Montserrat Alternates
+      fonts:
+        - asset: assets/fonts/montserrat_alternates/ma_mi.ttf
+          style: italic
+    - family: Lobster
+      fonts:
+        - asset: assets/fonts/lobster/lobster_regular.ttf
