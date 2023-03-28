@@ -170,14 +170,14 @@ class SignUpView extends GetView<SignUpController> {
                                     fontSize: 16,
                                   ),
                                 ),
-                                action: SnackBarAction(
-                                  label: 'Ok',
-                                  textColor: Colors.white,
-                                  onPressed: () {
-                                    ScaffoldMessenger.of(context)
-                                        .hideCurrentSnackBar();
-                                  },
-                                ),
+                                // action: SnackBarAction(
+                                //   label: 'Ok',
+                                //   textColor: Colors.white,
+                                //   onPressed: () {
+                                //     ScaffoldMessenger.of(context)
+                                //         .hideCurrentSnackBar();
+                                //   },
+                                // ),
                               ),
                             );
                           },
@@ -211,76 +211,76 @@ class SignUpView extends GetView<SignUpController> {
                       ],
                     ),
                   ),
-                  const Padding(
-                    padding: EdgeInsets.fromLTRB(
-                      0,
-                      10,
-                      0,
-                      0,
-                    ),
-                    child: Text(
-                      "Or",
-                      style: TextStyle(
-                        fontSize: 15,
-                        color: Colors.white,
-                        fontFamily: 'Lobster',
-                        fontWeight: FontWeight.bold,
-                      ),
-                    ),
-                  ),
-                  Padding(
-                    padding: const EdgeInsets.fromLTRB(
-                      40,
-                      10,
-                      40,
-                      0,
-                    ),
-                    child: ElevatedButton(
-                      onPressed: () {},
-                      style: ElevatedButton.styleFrom(
-                        padding: const EdgeInsets.all(
-                          20,
-                        ),
-                        backgroundColor: Colors.black,
-                        shape: const RoundedRectangleBorder(
-                          side: BorderSide(
-                            color: Colors.blue,
-                            width: 2,
-                          ),
-                          borderRadius: BorderRadius.all(
-                            Radius.circular(
-                              10,
-                            ),
-                          ),
-                        ),
-                      ),
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          Row(
-                            children: const [
-                              Image(
-                                image: AssetImage(
-                                  "assets/images/google_logo.png",
-                                ),
-                                width: 20,
-                                height: 20,
-                              ),
-                              SizedBox(
-                                width: 20,
-                              ),
-                              Text(
-                                "Sign in with Google",
-                                style: TextStyle(
-                                  color: Colors.white,
-                                ),
-                              ),
-                            ],
-                          ),
-                        ],
-                      ),
-                    ),
-                  ),
+                  // const Padding(
+                  //   padding: EdgeInsets.fromLTRB(
+                  //     0,
+                  //     10,
+                  //     0,
+                  //     0,
+                  //   ),
+                  //   child: Text(
+                  //     "Or",
+                  //     style: TextStyle(
+                  //       fontSize: 15,
+                  //       color: Colors.white,
+                  //       fontFamily: 'Lobster',
+                  //       fontWeight: FontWeight.bold,
+                  //     ),
+                  //   ),
+                  // ),
+                  // Padding(
+                  //   padding: const EdgeInsets.fromLTRB(
+                  //     40,
+                  //     10,
+                  //     40,
+                  //     0,
+                  //   ),
+                  //   child: ElevatedButton(
+                  //     onPressed: () {},
+                  //     style: ElevatedButton.styleFrom(
+                  //       padding: const EdgeInsets.all(
+                  //         20,
+                  //       ),
+                  //       backgroundColor: Colors.black,
+                  //       shape: const RoundedRectangleBorder(
+                  //         side: BorderSide(
+                  //           color: Colors.blue,
+                  //           width: 2,
+                  //         ),
+                  //         borderRadius: BorderRadius.all(
+                  //           Radius.circular(
+                  //             10,
+                  //           ),
+                  //         ),
+                  //       ),
+                  //     ),
+                  //     child: Row(
+                  //       mainAxisAlignment: MainAxisAlignment.center,
+                  //       children: [
+                  //         Row(
+                  //           children: const [
+                  //             Image(
+                  //               image: AssetImage(
+                  //                 "assets/images/google_logo.png",
+                  //               ),
+                  //               width: 20,
+                  //               height: 20,
+                  //             ),
+                  //             SizedBox(
+                  //               width: 20,
+                  //             ),
+                  //             Text(
+                  //               "Sign in with Google",
+                  //               style: TextStyle(
+                  //                 color: Colors.white,
+                  //               ),
+                  //             ),
+                  //           ],
+                  //         ),
+                  //       ],
+                  //     ),
+                  //   ),
+                  // ),
                   Padding(
                     padding: const EdgeInsets.fromLTRB(
                       0,
